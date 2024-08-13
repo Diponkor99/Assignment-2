@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+*{margin: 0px;
+    font-family: "Inter", sans-serif;
+   
+}
+
+.header{
+    max-width:  1440px;
+    height: 715px;
+    border:1px solid rgba(17, 17, 17, 1.00) ;
+    background-color: rgba(17, 17, 17, 1.00);
+   
+}
+.nav-name{
+    max-width:132px ;
+    color:#E6533C;
+    ;
+    font-size: 36px;
+    font-weight:900;
+    font-style: italic;
+}
+.nav-ul{
+    display: flex;
+    list-style: none;
+    max-width: 465px;
+    height:45px ;
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    gap: 35px;
+    padding: 0px 10px;
+    border-radius: 39px;
+    align-items: center;
+}
+.li-ankor{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:55px auto 30px ;
+}
+.nav-li1{
+    margin: 0px;
+}
+.nav-li1{
+    max-width: 92px;
+    height: 25px;
+    border: 1px solid  rgb(230, 83, 60);
+    border-radius: 46px;
+    background-color:rgb(230, 83, 60) ;
+    padding: 8px 20px 8px 20px;
+    margin-left: -7px;
+
+
+    
+}
+.nav-get{
+    font-size: 78px;
+    font-weight: medium;
+    line-height: 93.6px;
+    max-width: 520px;
+    color: rgba(255, 255, 255, 1);
+   
+}
+#itali{
+   font-weight:400;
+    font-style: italic;
+    font-size: 400;
+    line-height: 93.6px;
+    font-family: 'Miama', sans-serif;
+}
+#nav-p{
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 520px;
+    color:rgba(255, 255, 255, 0.5);
+
+
+}
+.but-join-Now{
+   font-size: 16px;
+   max-width:131rem ; 
+   height: 54px;
+   color:#FFFFFF ;
+   padding: 14px 40px;
+   background-color: #E6533C;
+   border-radius: 42px;
+   font-weight:700 ;
+   border: none;
+   margin: 28px 14px 0px ;
+   }
+.but-Download-App{
+   font-weight: 700;
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color:rgba(17, 17, 17, 1.00) ;
+    padding: 16px 48px;
+    border-radius: 42px;
+    border: 1px solid #FFFFFF;
+    height: 54px;
+    max-width:131rem ; 
+    margin-top:14px ;
+    margin-bottom: 14px;
+    
+}
+.nav-detilles{
+    max-width:520px ;
+  margin-right:80px ;
+  /* border: 1px solid wheat; */
+
+}
+.nav-poster{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-left: 214px;
+    margin-left:181px ;
+}
+.nav-img{
+    max-width: 349px;
+    height: 580px;
+    
+}
+#nav-wait{
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFFFFF;
+    padding: 10px;
+}
+#nav-caid-ditelles{
+    font-size: 13px;
+    font-weight:400 ;
+    color:#FFFFFF;
+}
+.nav-caid{
+    /* border: 1px solid white; */
+    width: 193px;
+    height:98px ;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    position: relative;
+    left: 1000px;
+    top: 120px;
+    backdrop-filter:blur(20px) ;
+    
+}
+#nav-wait2{
+    font-size: 24px;
+    font-weight: bold;
+    color:rgba(255, 255, 255, 0.65) ;
+}
+#nav-caid-ditelles1{
+    font-size: 16px;
+    font-weight:400 ;
+    color: rgba(239, 237, 232, 0.65);
+}
+.nav-caid1{
+    width: 206px;
+    height:96px ;
+    border-radius: 12px;
+    background-color:rgba(255, 255, 255, 0.1);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: -315px;
+    left: 670px;
+    backdrop-filter:blur(20px) ;
+}
+.sqer{
+    width: 40px;
+    height: 40px;
+    background-color:#E6533C ;
+    border-radius: 20px;
+    margin-right:12px ;
+    margin: 10px;
+    
+   
+}
+@media screen and ( min-width: 577px){
+    .dip1{
+        display: none;
+    }
+    .Box1 ,.Box2{
+        display: none;
+    }
+}
+    
+
+@media screen and (max-width: 576px){
+  .header{
+    max-width: 393px;
+    height: 1024px;
+  }
+ .nav-ul{
+        display:none
+    }
+    .nav-get{
+        font-size: 36px;
+        font-weight: medium;
+       max-width: 285px;
+      }
+    
+    .nav-poster{
+        flex-direction: column;
+    }
+    /* .nav-caid, .nav-caid1{
+        display: none;
+    } */
+    .nav-poster{
+       margin: 51px auto 48px;
+        align-items: center;
+        }
+        .nav-detilles{
+            max-width:274px ;
+            /* height: 96px; */
+          margin:2px
+          /* border: 1px solid wheat; */
+}
+.nav-get{
+    font-size: 36px;
+    font-weight: bold;
+    height: 129px;
+    max-width: 285px;
+    line-height:0px;
+   
+}
+.nav-button{
+    display: flex;
+}
+.but-join-Now{
+    font-size: 16px;
+    max-width:190px ; 
+    height: 54px;
+    color:#FFFFFF ;
+    padding: 16px 30px;
+    background-color: #E6533C;
+    border-radius: 42px;
+    font-weight:600 ;
+   
+    margin: 28px 3px 48px -30px ;
+    }
+ .but-Download-App{
+    font-weight: 600;
+     color: #FFFFFF;
+     font-size: 16px;
+     background-color:rgba(17, 17, 17, 1.00) ;
+     padding: 16px 20px;
+     border-radius: 42px;
+     border: 1px solid #FFFFFF;
+     height: 54px;
+     max-width:169px;
+     
+     margin: 28px -40px 48px 9px ; 
+ }
+ .nav-img{
+    max-width: 353px;
+    height: 588px;
+    position: absolute;
+} 
+#nav-wait{
+    font-size: 30px;
+    font-weight: 800;
+   
+    }
+#nav-caid-ditelles{
+    font-size: 10px;
+}
+    .nav-caid{
+        /* border: 1px solid white; */
+        width: 145.91px;
+        height:74.09px ;
+         position: relative;
+        left: 200px;
+        top: 450px;
+        
+        
+    }
+    #nav-wait2{
+        font-size: 18px;
+     
+    }
+    #nav-caid-ditelles1{
+        font-size: 12px;
+    }
+    .nav-caid1{
+        width: 155.74px;
+        height:72.58px ;
+        border-radius: 9px;
+        
+        bottom: -600px;
+        left: 10px;
+       
+    }
+
+}
