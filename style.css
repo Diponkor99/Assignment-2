@@ -478,9 +478,9 @@
 
 /* section-3 */
 .section3{
-    height: 877px;
+    height: 800px;
     max-width: 1060px;
-    border: 1px solid wheat;
+    /* border: 1px solid wheat; */
     margin: 0px auto;
 }
 .section3-h3{
@@ -498,6 +498,462 @@
 .section3-exercise1{
     width: 323px;
     height: 218px;
-    background-blend-mode: overlay;
+    background-blend-mode: overlay;}
+.section3-img{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    margin: 0px;
+    padding: 0px;
+
   
+}
+.section3-img1{
+    background-image: url(images/exercise1.jpg);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 201.5px;
+    background-position: center;
+    background-size: 135%;
+    background-blend-mode: overlay;
+    background-color: rgba(6, 255, 210, 0.5);
+    /* border: 1px solid rgb(164, 243, 17); */
+}
+#section3-img1{
+    margin-top: 150px;
+    margin-left: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    color:rgba(0, 0, 0, 1);
+}
+
+.section3-img2{
+    background-image: url(images/exercise2.png);
+    width:520px ;
+    height:201.5px ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 0, 0, 0.3);
+    background-position: center;
+}
+#section3-img2{
+    font-size: 14px;
+    font-weight: 500;
+    color:#FFFFFF;
+    margin-top: 25px;
+    margin-left: 31px;
+}
+.section3-img3{
+    background-image: url(images/exercise3.png);
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-blend-mode: overlay;
+    background-position: center;
+    height:201.5px ;
+    width: 290px;
+    /* border: 1px solid rgb(162, 11, 244); */
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+#section3-img3{
+    font-size: 14px;
+    font-weight:500 ;
+    width: 176px;
+    color: #FFFFFF;
+    margin-top: 146px;
+    margin-left: 27px;
+
+}
+.section3-img4{
+    background-image: url(images/exercise4.png);
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-blend-mode: overlay;
+    background-position: center;
+    height:201.5px ;
+    width: 425px;
+    /* border: 1px solid rgb(162, 11, 244); */
+   
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#section3-img4{
+    font-size: 14px;
+    font-weight:500 ;
+    color:#FFFFFF;
+    width: 176px;
+    margin-top: 25px;
+    margin-left: 250px;
+
+}
+.section3-img5{
+    background-image:url(images/exercise5.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-blend-mode: overlay;
+    background-position: center;
+    height:201.5px ;
+    width: 288px;
+    /* border: 1px solid rgb(162, 11, 244); */
+   
+    background-color: rgba(66, 255, 0, 0.3);
+}
+#section3-img5{
+    font-size: 14px;
+    font-weight:500 ;
+    color:#FFFFFF;
+    width: 176px;
+    margin-top: 144px;
+    margin-left: 34px;
+
+}
+.section3-img6{
+    background-image:url(images/exercise6.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-blend-mode: overlay;
+    background-position: center;
+    height:201.5px ;
+    width: 347px;
+    /* border: 1px solid rgb(162, 11, 244); */
+   
+    background-color:rgba(0, 71, 255, 0.3);
+}
+#section3-img6{
+    font-size: 14px;
+    font-weight:500 ;
+    color:#FFFFFF;
+    width: 176px;
+    margin-top: 142px;
+    margin-left: 38px;
+
+}
+.section3-div{
+    width: 671px;
+    height: 120px;
+    /* border: 1px solid white; */
+    margin: 88px auto;
+
+}
+.section3-BMI{
+    font-size: 48px;
+    font-weight:black ;
+    color:#FFFFFF ;
+    margin-bottom: 14px;
+}
+.section3-p{
+font-size: 14px;
+font-weight:400 ;
+color: rgba(255, 255, 255, 0.5);
+
+}
+@media screen and (max-width:576px){
+    .section3-Avi{
+      width: 353px;
+      height: 162px;
+        margin: 66px auto 38px;
+    }
+    .section3-h3{
+        font-size: 32px;
+       max-width: 331 ;
+    }
+    .section3-p{
+        font-size: 14px;
+      max-width:331px ;
+    }
+    .section3-images{
+       max-width: 353px;
+       height: 253px;
+       border: 1px solid tomato;
+
+    }
+    .section3-img3, .section3-img6{
+        display: none;
+    }
+    .section3-img{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) ;
+        margin: 0px;
+        padding: 0px;
+    
+      
+    }
+    .section3-img1{
+       width: 175px;
+        height: 128px;
+        }
+        #section3-img1{
+            margin-top: 95px;
+            margin-left: 16px;
+            font-weight: 500;
+           color:#FFFFFF;
+        }
+        .section3-img2{
+            background-image: url(images/exercise2.png);
+            width:179px ;
+            height:128px ;
+            background-repeat: no-repeat;
+            background-size: 200%;
+            background-blend-mode: overlay;
+            background-color: rgba(255, 0, 0, 0.3);
+            background-position: right;
+        }
+        #section3-img2{
+             margin-top: 80px;
+            margin-left: 70px;
+        }  
+        .section3-img4{
+            background-size: 125%;
+           
+            height:125px ;
+            width: 157px;
+            background-size: 150%;
+            background-blend-mode: overlay;
+            /* border: 1px solid rgb(39, 16, 188); */
+            background-position: left ;
+           
+        }
+        #section3-img4{
+          font-size: 10px;
+            width: 87px;
+            margin-top: 70px;
+            margin-left: 8px;
+            font-weight: 100;
+
+        
+        }  
+        .section3-img5{
+            background-image:url(images/exercise5.jpg);
+            background-repeat: no-repeat;
+            background-size: 110%;
+            background-blend-mode: overlay;
+            background-position: center;
+            height:125px ;
+            width: 195px;
+            /* border: 1px solid rgb(162, 11, 244); */
+           
+            background-color: rgba(66, 255, 0, 0.3);
+        }
+        #section3-img5{
+            font-size: 10px;
+            font-weight:200 ;
+            color:#fcf9f9;
+            width: 100px;
+            margin-top: 70px;
+            margin-left: 34px;
+        
+        }
+        .section3-div{
+            width: 353px;
+            height: 125px;
+            /* border: 1px solid white; */
+            margin: 30px auto;
+        
+        }
+        .section3-BMI{
+            font-size: 32px;
+            font-weight:black ;
+            color:#FFFFFF ;
+            margin-bottom: 14px;
+        }
+        .section3-p{
+            font-size: 14px;
+            font-weight:400 ;
+            color: rgba(255, 255, 255, 0.5);
+            width:353px ;
+            
+            }
+    
+
+}
+.section4{
+    max-width: 1440px;
+    height: 487px;
+    background-color: rgb(34, 34, 34);
+    /* border: 1px solid tomato; */
+}
+.section4-h3{
+    font-size: 28px;
+    font-weight: 900;
+    max-width: 443px;
+    color:#FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+  
+.section4-preant{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 310px;
+    height: 216px; 
+    
+
+}
+.section4-table , .section4-table1{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
+}
+.section4-table1{
+    font-size: 16px;
+    font-weight: 500px;
+    color: #FFFFFF;
+   text-align: center;
+
+}
+.section4-table{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+   text-align: center;
+   font-size: 14px;
+font-weight: 400;
+text-align:center;
+}
+#sex{
+    width:282.5px;
+    height: 46px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px auto 20px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    border: none;
+    text-align: center;
+
+
+}
+.form1{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.form-name{
+    font-size: 28px;
+    font-weight: 900;
+    color:#FFFFFF;
+    margin-bottom: 14px;
+    margin-top: 50px;
+
+
+}
+.from-dittelss{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    width: 577px;
+    margin-bottom:34px ;
+
+}
+.section4{
+    display: flex;
+    justify-content: space-around;
+   
+}
+#foctor{
+    width: 577px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(138, 135, 135, 0.1);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px auto 20px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    border: none;
+    text-align: center;
+}
+.section4-button{
+    /* width: 83px; */
+    /* height: 22px; */
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding:16px 70px ;
+    background-color: #E6533C;
+    border-radius: 42px;
+    border: none;
+    margin: 34px auto 52px 30px ;
+
+
+}
+@media screen and (max-width:576px) {
+  .section4{
+    max-width: 394px ;
+    height: 772px;
+    border: 1px solid red;
+    flex-direction: column;
+  }  
+  .section4-h3{
+    font-size: 16px;
+    font-weight: 900;
+    width:180px;
+    color:#FFFFFF;
+    margin: 34px 200px 23px 20px;
+    
+    }
+    .section4-table{
+    text-align:center;
+    
+    }
+    .form-name{
+        font-size: 16px;
+        font-weight: 900;
+        color:#FFFFFF;
+        margin-bottom: 14px;
+        margin-top: 42px;
+        margin-left: 10px;
+    
+    
+    }
+    .from-dittelss{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        width: 577px;
+        margin-bottom:34px ;
+    
+    }
+    #sex{
+        width:170.5px;
+        height: 48px;
+        color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 12px auto 20px;
+        margin-bottom: 12px;
+        margin-left: 12px;
+        border: none;
+        text-align: center;}
+    
+        #foctor{
+            width: 353px;
+            height: 48px;
+            color: rgba(255, 255, 255, 0.6);
+            background-color: rgba(138, 135, 135, 0.1);
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 12px auto 20px;
+            margin-bottom: 12px;
+            margin-left: 12px;
+            border: none;
+            text-align: center;
+           
+  
+    
+}
+.from-dittelss{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    width: 346px;
+    height:72px ;
+    margin-bottom:34px ;
+    margin-left: 10px;
+
+}
 }
