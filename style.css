@@ -193,12 +193,10 @@
         display: none;
     }
 }
-    
-
 @media screen and (max-width: 576px){
   .header{
     max-width: 393px;
-    height: 1024px;
+    height: 1100px;
   }
  .nav-ul{
         display:none
@@ -301,4 +299,205 @@
        
     }
 
+}
+
+
+/* section1 ar  job */
+.section1{
+    max-width:1044px ;
+    height:452px ;
+    /* border: 1px solid wheat; */
+    text-align: center;
+    margin: 100px auto;
+}
+#section1-header-name{
+    font-size: 48px;
+    font-weight: bold;
+    color:#FFFFFF;
+    max-width: 476px;
+    max-height: 58px;
+  margin: 0 auto;
+}
+#section1-detialless{
+    color:rgba(255, 255, 255, 0.5) ;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 671px;
+    max-height: 48px;
+    margin: 15px auto 50px;
+}
+.exercise-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+
+}
+.exercise{
+    width: 231px;
+    height:274px ;
+    /* border: 1px solid white; */
+    margin: 10px;
+}
+#exercise-h3{
+    font-size: 18px;
+    font-weight:600 ;
+    color: #FFFFFF;
+    align-items: center;
+    margin: 6px auto 30px;
+}
+.exercise-p{
+    font-size: 14px;
+    font-weight: 400px;
+    color:#FFFFFF ;
+    align-items: center;
+}
+.section1-exercise{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:576px) {
+    .section1{
+        width:338px ;
+        height: 1398px;
+        /* border: 1px solid whitesmoke; */
+       margin-top: 5px;
+    }
+    #section1-header-name{
+        font-size: 32px;
+         max-width: 318px;
+        max-height: 38px;
+      margin: 0 auto;
+    }
+    #section1-detialless{
+        color:rgba(255, 255, 255, 0.5) ;
+        font-size: 14px;
+        font-weight: 400;
+        max-width: 316px;
+        max-height: 72px;
+        margin: 14px auto 50px;}
+    .section1-exercise{
+           flex-direction: column;
+           align-items: center;
+           
+        }
+    #exercise-h3{
+             margin: 6px auto 5px;
+}
+.exercise{
+    margin-bottom: 40px;
+}}
+
+/* section-2    */
+.section2{
+    max-width:1060px ;
+    height:371px ;
+    /* border: 1px solid #66e41d; */
+    background-color:#222222 ;
+    margin: 100px auto;
+    border-radius: 18px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.section2-H3{
+    font-size: 48px;
+    font-weight:black ;
+    color: #FFFFFF;
+    width: 443px;
+    height:116px ;
+    margin-bottom: 14px;
+}
+.section2-P{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    width: 443px;
+    height: 72px;
+}
+.section2-button{
+    font-size: 18px;
+    font-weight: 600;
+    /* width: 81px;
+    height: 22px; */
+    padding: 16px 70px;
+    background-color:#E6533C ;
+    border-radius: 42px;
+    border-style: none;
+
+
+}
+.section2-box{
+    width: 443px;
+    height:290px ;
+    /* border: 1px solid wheat; */
+    margin: 40px 110px 40px 50px;
+}
+#section2-run{
+    max-width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    margin:  30px 35px auto;
+
+}
+@media screen and (max-width:576px){
+    .section2{
+        max-width:353px ;
+        height:531px ;
+        /* border: 1px solid #66e41d; */
+        background-color:#222222 ;
+        margin: 66px auto;
+        border-radius: 18px;
+        flex-direction: column;
+        
+}
+.section2-H3{
+    font-size: 32px;
+    font-weight:black ;
+    color: #FFFFFF;
+    max-width: 287px;
+    height:76px ;
+    margin: 30px 0px 14px;
+}
+.section2-P{
+   width: 287px;
+    height: 96px;}
+    .section2-button{
+       margin:-10px 20px 30px ;
+    
+    
+    }
+    #section2-run{
+        max-width: 287px;
+        height: 170px;
+        border-radius: 18px;
+        margin:  -20px 45px 35px ;}
+       
+
+}
+
+/* section-3 */
+.section3{
+    height: 877px;
+    max-width: 1060px;
+    border: 1px solid wheat;
+    margin: 0px auto;
+}
+.section3-h3{
+    font-size: 48px;
+    font-weight:black ;
+    color: #FFFFFF;
+    max-width: 573px;
+}
+.section3-p{
+    font-size: 14px;
+    font-weight:400 ;
+    color: rgba(255, 255, 255, 0.5);
+    max-width:671px ;
+}
+.section3-exercise1{
+    width: 323px;
+    height: 218px;
+    background-blend-mode: overlay;
+  
 }
